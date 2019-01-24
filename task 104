@@ -1,0 +1,20 @@
+#include <iostream>
+#include <time.h>
+
+using namespace std;
+
+int main()
+{
+setlocale (LC_ALL,".1251");
+int a;
+while(a<28){
+
+cout << "\n\n\t Сердюк Костя\n",a;
+a++
+
+}
+
+cout << endl << endl <<"\t";
+system ("pause");
+return 0;
+}
