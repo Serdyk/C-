@@ -1,0 +1,23 @@
+#include <iostream>
+#include <time.h>
+using namespace std;
+
+int main()
+{
+	srand((unsigned)time(NULL));
+	system("color 4F");
+	setlocale(LC_ALL, ".1251");
+
+	int A[100];
+	int k;
+
+	for (k = 0; k < 100; k++){
+		A[k] = rand();
+		if (k % 3 == 0)printf("A[%i]=%i\t");
+		printf("A[%i]=%i\t", k, A[k]);
+	}
+
+	cout << endl << endl << "\t";
+	system("pause");
+	return 0;
+}
