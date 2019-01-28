@@ -1,0 +1,27 @@
+#include <iostream>
+#include <time.h>
+using namespace std;
+
+int main()
+{
+	srand((unsigned)time(NULL));
+	system("color 4F");
+	setlocale(LC_ALL, ".1251");
+
+	int A[100];
+	int k;
+	double ser = 0;
+	int p;
+
+	for (k = 0; k < 100; k++){
+		A[k] = -99 + rand() % 99;
+		if (k % 2 == 0) ser += A[k]; {
+		}
+		printf("A[%i]=%i\t", k, A[k]);
+	}
+	printf("\n\n\t %f", ser / p);
+
+	cout << endl << endl << "\t";
+	system("pause");
+	return 0;
+}
